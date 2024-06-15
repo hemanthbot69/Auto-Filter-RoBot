@@ -76,11 +76,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rishi0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/movie_update_2024')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/movie_update_2024')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/movie_update_2024')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+Y9urYvDsOKw3Zjc1")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+Y9urYvDsOKw3Zjc1")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
@@ -108,13 +108,13 @@ PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
 LINK_MODE = is_enabled("LINK_MODE", True)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
-IMDB = is_enabled('IMDB', True)
+IMDB = is_enabled('IMDB', False)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', False)
 
 
-PAYMENT_QR = environ.get('PAYMENT_QR', 'http://graph.org/file/cacbbea472e5a48ce0d64.jpg') #telegraph link of your QR code 
-UPI_ID = environ.get('UPI_ID', 'Rishikesh-sharma09@axl') # Add your upi id here
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://telegra.ph/file/2290f454c7499618a434d.jpg') #telegraph link of your QR code 
+UPI_ID = environ.get('UPI_ID', 'hemanth04hemu@oksbi') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "") #if is_stream = true then add a channel id ex: -10026393639
