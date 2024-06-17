@@ -15,7 +15,7 @@ from database.ia_filterdb import Media, get_file_details, get_search_results,del
 
 BUTTONS = {}
 CAP = {}
-REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "❤️", "😐", "🥰", "🤩", "😉", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "✨️", "❤️‍🔥", "😎", "🏆", "🔥", "🤭", "🚀", "💎", "👻", "😁"]
+REACTIONS = ["🔥"]
 
 @Client.on_callback_query(filters.regex(r"^stream"))
 async def aks_downloader(bot, query):
